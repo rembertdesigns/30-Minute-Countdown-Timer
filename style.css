@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    background: #cc5e5e;
+    background-image: linear-gradient(to top left, #db3434, #6159b6);
+    text-align: center;
+    color: whitesmoke;
+    letter-spacing: .1em;
+  }
