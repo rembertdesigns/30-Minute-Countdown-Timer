@@ -87,3 +87,53 @@
       font-size: 84px;
     }
   }
+
+  #controls {
+    display: flex;
+  }
+  @media only screen and (min-width: 768px) {
+    #controls {
+      flex-direction: column;
+      margin-left: 20px;
+      font-size: 20px;
+    }
+  }
+  
+  #controls button {
+    -webkit-appearance: button;
+    font-size: inherit;
+    color: white;
+    background: transparent;
+    border: solid 2px white;
+    padding: 10px;
+    width: 100px;
+    transition: background .4s ease, color .4s ease;
+    border-radius: 2px;
+    margin: 0 5px;
+  }
+  @media only screen and (min-width: 768px) {
+    #controls button {
+      margin: 10px 0;
+    }
+  }
+  #controls button:hover,
+  #controls button:focus {
+    cursor: pointer;
+    background: white;
+    color: black;
+  }
+  
+  footer {
+    font-size: 18px;
+    padding: 5px;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  a:hover,
+  a:focus {
+    color: whitesmoke;
+    text-decoration: underline;
+  }
