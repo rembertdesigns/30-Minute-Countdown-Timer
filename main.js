@@ -52,3 +52,14 @@ startButton.addEventListener("click", function start () {
     }
   });
   
+  resetButton.addEventListener("click", res);
+
+function res() {
+  clearInterval(seti);
+  minute.value = mm;
+  second.value = ss;
+  minute.removeAttribute("disabled");
+  second.removeAttribute("disabled");
+  startButton.innerHTML = "START";
+  document.body.style.backgroundImage = "linear-gradient(to top left, #db3434, #6159b6)";
+}
